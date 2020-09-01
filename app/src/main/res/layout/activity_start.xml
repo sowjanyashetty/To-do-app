@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/todo_lis"
+    tools:context="com.example.prarthana.doitlaterapp.StartActivity">
+
+    <Button
+        android:id="@+id/src_reg_btn"
+        android:layout_width="150dp"
+        android:layout_height="61dp"
+        android:layout_alignEnd="@+id/t1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="84dp"
+        android:layout_x="4dp"
+        android:layout_y="498dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="ADD NEW ACCOUNT"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/src_exist_btn"
+        android:layout_width="155dp"
+        android:layout_height="62dp"
+        android:layout_x="207dp"
+        android:layout_y="497dp"
+        android:text="Already Exist Account"
+        android:textColor="@color/colorAccent" />
+
+</AbsoluteLayout>

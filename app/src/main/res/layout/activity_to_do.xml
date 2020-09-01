@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.prarthana.doitlaterapp.ToDoActivity">
+    <include
+        android:id="@+id/todo_page_toolbar"
+        layout="@layout/app_bar_layout" />
+
+    <Button
+        android:id="@+id/fab"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:layout_x="104dp"
+        android:layout_y="482dp"
+        android:text="Edit"
+        android:textSize="24sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="121dp"
+        android:layout_height="33dp"
+        android:layout_x="6dp"
+        android:layout_y="102dp"
+        android:text="Name"
+        android:textSize="24sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="123dp"
+        android:layout_height="35dp"
+        android:layout_x="4dp"
+        android:layout_y="352dp"
+        android:text="Date"
+        android:textSize="24sp"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/dates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="144dp"
+        android:layout_y="347dp"
+        android:ems="10"
+        android:hint="dd/MM/yy   HH:mm   "
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="123dp"
+        android:layout_height="33dp"
+        android:layout_x="4dp"
+        android:layout_y="231dp"
+        android:text="Details"
+        android:textSize="24sp"
+        android:typeface="serif" />
+
+    <EditText
+        android:id="@+id/to_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="145dp"
+        android:layout_y="225dp"
+        android:ems="10"
+        android:hint="Enter Description"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/to_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="146dp"
+        android:layout_y="104dp"
+        android:ems="10"
+        android:hint="Enter Title"
+        android:inputType="textPersonName" />
+
+</AbsoluteLayout>

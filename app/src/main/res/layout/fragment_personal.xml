@@ -1,0 +1,27 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.prarthana.doitlaterapp.PersonalFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/p_task_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="301dp"
+        android:layout_y="498dp"
+        android:clickable="true"
+        app:fabSize="mini"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/p_view"
+        android:layout_width="match_parent"
+        android:layout_height="546dp"
+        android:layout_x="5dp"
+        android:layout_y="6dp" />
+
+
+</AbsoluteLayout>

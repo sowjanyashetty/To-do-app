@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/d_task"
+        android:icon="@drawable/ic_create_new_folder_black_24dp"
+        android:title="Tasks">
+        <menu>
+            <item
+                android:id="@+id/d_personal"
+                android:title="Personal" />
+            <item
+                android:id="@+id/d_others"
+                android:title="Others" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/d_accounts"
+
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="Account Settings" />
+    <item
+        android:id="@+id/d_logout"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="Logout" />
+
+
+</menu>
